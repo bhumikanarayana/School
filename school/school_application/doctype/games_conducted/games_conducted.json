@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-26 10:24:51.283226",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "game_name",
+  "winners",
+  "game_image",
+  "winners_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "game_name",
+   "fieldtype": "Data",
+   "label": "Game Name"
+  },
+  {
+   "fieldname": "winners",
+   "fieldtype": "Data",
+   "label": "Winners"
+  },
+  {
+   "fieldname": "game_image",
+   "fieldtype": "Attach Image",
+   "label": "Game Image"
+  },
+  {
+   "fieldname": "winners_image",
+   "fieldtype": "Attach Image",
+   "label": "Winners Image"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-09-26 11:09:26.735067",
+ "modified_by": "Administrator",
+ "module": "School Application",
+ "name": "Games Conducted",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

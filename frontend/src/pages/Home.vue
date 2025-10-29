@@ -80,6 +80,29 @@
       </div>
 </section>
 
+<section class="bg-gray-100">
+      <div class="max-w-7xl mx-auto px-6 sm:px-6 md:px-10 lg:px-20 py-5 flex flex-col md:flex-row items-center md:justify-between gap-8">
+        <!-- Right Image -->
+        <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+          <img src="@/assets/students.png" alt="Hero Image" class="w-full max-w-sm md:max-w-md h-auto object-cover rounded-lg" />
+        </div>
+        <!-- Left Content -->
+        <div class="w-full md:w-1/2 md:text-left px-8">
+            <h1 class="text-[1rem] md:text-[1.5rem] font-bold text-gray-500 ">
+              Educational Approach
+            </h1>
+            <p class="text-gray-700 leading-relaxed">
+              The pattern of education in the higher sections of Bhashyam IIT Academy has undergone a paradigm shift and 
+              goes beyond the stipulated syllabus. It provides a stress free education while preparing the students for
+              future Engineering and Medical competitive examinations. For IIT Foundation students, Bhashyam has designed
+              interactive and practical based learning that includes group discussions, seminars and workshops. Several 
+              projects are allotted to students in groups and they are asked to make their presentations in the classroom
+               after completing their project.
+            </p>
+        </div>
+      </div>
+</section>
+
 </template>
 
 <script>

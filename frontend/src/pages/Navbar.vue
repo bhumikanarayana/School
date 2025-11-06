@@ -8,14 +8,14 @@
           <img src="@/assets/logoschool.png" alt="Logo" class="h-10 w-auto" />
         </div>
 
-        <!-- Center: Nav Items (Desktop Only) -->
+       <!-- Center: Nav Items (Desktop Only) -->
         <div class="hidden md:flex space-x-8">
-          <router-link to="/" class="text-gray-700 hover:text-orange-500 font-medium">Home</router-link>
-          <router-link to="/aboutus" class="text-gray-700 hover:text-orange-500 font-medium">AboutUs</router-link>
-          <router-link to="/schoollife" class="text-gray-700 hover:text-orange-500 font-medium">School Life</router-link>
-          <router-link to="/announcements" class="text-gray-700 hover:text-orange-500 font-medium">Announcements</router-link>
-          <router-link to="/gallery" class="text-gray-700 hover:text-orange-500 font-medium">Gallery</router-link>
-          <router-link to="/contactus" class="text-gray-700 hover:text-orange-500 font-medium">Contact</router-link>
+          <router-link to="/" class="font-small" :class="$route.path === '/' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">Home</router-link>
+          <router-link to="/aboutus" class="font-small" :class="$route.path === '/aboutus' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">AboutUs</router-link>
+          <router-link to="/schoollife" class="font-small" :class="$route.path === '/schoollife' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">School Life</router-link>
+          <router-link to="/announcements" class="font-small" :class="$route.path === '/announcements' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">Announcements</router-link>
+          <router-link to="/gallery" class="font-small" :class="$route.path === '/gallery' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">Gallery</router-link>
+          <router-link to="/contactus" class="font-small" :class="$route.path === '/contactus' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">Contact</router-link>
         </div>
 
         <!-- Right: Login & Admission (Desktop Only) -->
@@ -31,7 +31,7 @@
 
         <!-- Mobile Menu Button -->
         <div class="md:hidden">
-          <button @click="isOpen = !isOpen" class="text-gray-700 focus:outline-none">
+          <button @click="isOpen = !isOpen" class="text-gray-600 focus:outline-none">
             <svg v-if="!isOpen" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
               fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -50,18 +50,18 @@
     <!-- Mobile Menu Dropdown -->
     <div v-if="isOpen" class="md:hidden bg-white shadow-lg">
       <div class="px-4 pt-4 pb-4 space-y-2">
-        <router-link to="/" class="block text-gray-700 hover:text-orange-500">Home</router-link>
-        <router-link to="/aboutus" class="block text-gray-700 hover:text-orange-500">About</router-link>
-        <router-link to="/schoollife" class="block text-gray-700 hover:text-orange-500">School Life</router-link>
-        <router-link to="/announcements" class="text-gray-700 hover:text-orange-500 font-medium">Announcements</router-link>
-        <router-link to="/gallery" class="block text-gray-700 hover:text-orange-500">Gallery</router-link>
-        <router-link to="/contactus" class="block text-gray-700 hover:text-orange-500">Contact</router-link>
+        <router-link to="/" class="block" :class="$route.path === '/' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">Home</router-link>
+        <router-link to="/aboutus" class="block" :class="$route.path === '/aboutus' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">About</router-link>
+        <router-link to="/schoollife" class="block" :class="$route.path === '/schoollife' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">School Life</router-link>
+        <router-link to="/announcements" class="block" :class="$route.path === '/announcements' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">Announcements</router-link>
+        <router-link to="/gallery" class="block" :class="$route.path === '/gallery' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">Gallery</router-link>
+        <router-link to="/contactus" class="block" :class="$route.path === '/contactus' ? 'text-orange-500' : 'text-gray-600 hover:text-orange-500'">Contact</router-link>
 
         <div class="border-t pt-3 flex items-center gap-3">
             <!-- Login Button -->
-            <button class="border border-orange-500 text-orange-500 px-4 py-1 rounded-lg hover:bg-orange-500 hover:text-white transition-colors">
+            <a href="/login" class="border border-orange-500 text-orange-500 px-4 py-1 rounded-lg hover:bg-orange-500 hover:text-white transition-colors">
                 Login
-            </button>
+            </a>
 
             <!-- Admission Button -->
             <a href="http://127.0.0.1:8000/studentadmission" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-1 rounded-lg">

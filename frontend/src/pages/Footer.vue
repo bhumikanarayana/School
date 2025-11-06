@@ -26,18 +26,18 @@
 
     <!-- Column 2: Links -->
     <div class="flex flex-col space-y-2 items-center md:items-start">
-      <h3 class="font-semibold mb-2">My Account</h3>
-      <a href="#" class="hover:underline">About SBA</a>
-      <a href="#" class="hover:underline">Support</a>
-      <a href="#" class="hover:underline">Admission</a>
+      <h3 class="font-semibold mb-2">My Account</h3>  
+      <router-link to="/" class="hover:text-orange-400" :class="{ 'text-orange-400': $route.path === '/' }">Home</router-link>
+      <router-link to="/aboutus" class="hover:text-orange-400" :class="{ 'text-orange-400': $route.path === '/aboutus' }">About Us</router-link>
+      <router-link to="/enquiry" class="hover:text-orange-400" :class="{ 'text-orange-400': $route.path === '/enquiry' }">Support</router-link>
     </div>
 
     <!-- Column 3: Dashboard -->
     <div class="flex flex-col space-y-2 items-center md:items-start">
       <h3 class="font-semibold mb-2">Dashboard</h3>
-      <a href="#" class="hover:underline">Contact Us</a>
-      <a href="#" class="hover:underline">School Life</a>
-      <a href="#" class="hover:underline">Login</a>
+      <a href="/contactus" class="hover:underline">Contact Us</a>
+      <a href="/schoollife" class="hover:underline">School Life</a>
+      <a href="/login" class="hover:underline">Login</a>
     </div>
 
     <!-- Column 4: Newsletter / Contact -->

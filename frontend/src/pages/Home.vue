@@ -104,10 +104,10 @@
             <h1 class="text-[1rem] md:text-[1.5rem] font-semibold text-orange-400 mb-2">
               Innovating New Ways to Train Students
             </h1>
-            <p class="text-black font-light">
+            <p class="text-black font-light text-sm md:text-xl">
               Every child has innate capabilities that help him/her shine. Our expert faculty provides the right guidance to bring out 
               these latent qualities, transforming the student into a successful individual.</p> 
-            <p class="text-black font-light mt-2">
+            <p class="text-black font-light mt-2 text-sm md:text-xl">
               Sri Chaitanya syllabus is a unique one with
               an orientation of enabling the students take up to the task of getting selected for the student into a successful individual.Sri Chaitanya Syllabus is a unique one with
               and other Medical and Engineering Institutes and other streams with ease and other Medical and Engineering Institutes and other streams with ease and comfort.
@@ -163,11 +163,11 @@
             <h1 class="text-[1rem] md:text-[1.5rem] font-bold text-orange-400 ">
               Educational Approach
             </h1>
-            <p class="text-black font-light mt-2">
+            <p class="text-black font-light mt-2 text-sm md:text-xl">
               The pattern of education in the higher sections of Bhashyam Academy has undergone a paradigm shift and 
               goes beyond the stipulated syllabus. 
             </p>  
-            <p class="text-black font-light mt-2">It provides a stress free education while preparing the students for
+            <p class="text-black font-light mt-2 text-sm md:text-xl">It provides a stress free education while preparing the students for
               future Engineering and Medical competitive examinations. For our Foundation students, Bhashyam has designed
               interactive and its practical based learning that includes group discussions, seminars and workshops. Several 
               projects are allotted to students in groups and they are asked to make their presentations in the classroom

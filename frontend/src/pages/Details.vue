@@ -4,7 +4,7 @@
         v-if="gallery?.main_image"
         :src="gallery.main_image"
         :alt="gallery.title"
-        class="w-full h-90 pt-16 object-cover mb-4"
+        class="w-full h-auto  object-cover"
       />
       <section class="max-w-6xl mx-auto">
     <div v-if="loading" class="text-center">Loading...</div>

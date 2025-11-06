@@ -35,9 +35,9 @@
     <!-- Column 3: Dashboard -->
     <div class="flex flex-col space-y-2 items-center md:items-start">
       <h3 class="font-semibold mb-2">Dashboard</h3>
-      <a href="/contactus" class="hover:underline">Contact Us</a>
-      <a href="/schoollife" class="hover:underline">School Life</a>
-      <a href="/login" class="hover:underline">Login</a>
+      <router-link to="/contactus" class="hover:text-orange-400" :class="{ 'text-orange-400': $route.path === '/contactus' }">Contact</router-link>
+      <router-link to="/schoollife" class="hover:text-orange-400" :class="{ 'text-orange-400': $route.path === '/schoollife' }">Schoollife</router-link>
+      <router-link to="/login" class="hover:text-orange-400" :class="{ 'text-orange-400': $route.path === '/login' }">Login</router-link>
     </div>
 
     <!-- Column 4: Newsletter / Contact -->

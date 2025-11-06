@@ -10,7 +10,7 @@
       @click="$router.push({ name: 'Enquiry' })"
       class="flex items-center justify-center 
              fixed right-0 top-1/2 -translate-y-1/2 
-             bg-orange-500 hover:bg-orange-600 text-white font-normal
+             bg-orange-500 hover:bg-black text-white text-sm font-normal
              px-2 py-3 shadow-lg z-50 
              [writing-mode:vertical-rl] rotate-180
              rounded-tr-md rounded-br-md"

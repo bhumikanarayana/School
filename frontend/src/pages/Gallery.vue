@@ -5,7 +5,7 @@
       <img 
         src="@/assets/gallery.jpg" 
         alt="Gallery Banner" 
-        class="w-full h-64 md:h-96 object-cover"
+        class="w-full h-auto object-cover"
       />
     </div>
 

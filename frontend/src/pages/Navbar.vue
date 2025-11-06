@@ -21,10 +21,10 @@
         <!-- Right: Login & Admission (Desktop Only) -->
         <div class="hidden md:flex items-center space-x-4">
            <a href="/login"
-            class="border border-orange-500 text-orange-500 px-4 py-2 rounded-lg hover:bg-orange-500 hover:text-white transition-colors">
+            class="border border-orange-500 text-orange-500 px-4 py-2 rounded-lg hover:bg-black hover:text-white transition-colors">
             Login
           </a>
-           <a href="http://127.0.0.1:8000/studentadmission" class="bg-orange-500 hover:bg-orange-500 text-white px-4 py-2 rounded-lg">
+           <a href="http://127.0.0.1:8000/studentadmission" class="bg-orange-500 hover:bg-black text-white px-4 py-2 rounded-lg">
             Admission
           </a>
         </div>
@@ -59,12 +59,12 @@
 
         <div class="border-t pt-3 flex items-center gap-3">
             <!-- Login Button -->
-            <a href="/login" class="border border-orange-500 text-orange-500 px-4 py-1 rounded-lg hover:bg-orange-500 hover:text-white transition-colors">
+            <a href="/login" class="border border-orange-500 text-orange-500 px-4 py-1 rounded-lg hover:bg-black hover:text-white transition-colors">
                 Login
             </a>
 
             <!-- Admission Button -->
-            <a href="http://127.0.0.1:8000/studentadmission" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-1 rounded-lg">
+            <a href="http://127.0.0.1:8000/studentadmission" class="bg-orange-500 hover:bg-black text-white px-4 py-1 rounded-lg">
                 Admission
             </a>
         </div>

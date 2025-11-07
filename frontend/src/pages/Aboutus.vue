@@ -20,11 +20,12 @@
         </p>
 
         <!-- Centered Button -->
-        <button
+       <a
+        href="http://127.0.0.1:8000/studentadmission"
           class="bg-orange-500 hover:bg-black hover:text-white text-white px-3 py-2 text-sm  md:px-4 md:py-2 rounded-xl shadow-md transition duration-300"
         >
           Register Now
-        </button>
+        </a>
       </div>
     </section>
     <section class="bg-gray-100 py-4">
@@ -68,9 +69,9 @@
         </p>
 
         <!-- Button -->
-        <button class="bg-orange-500 hover:bg-black text-white text-sm font-semibold px-6 py-2 rounded-lg transition duration-300">
+        <a href="/login" class="bg-orange-500 hover:bg-black text-white text-sm font-semibold px-6 py-2 rounded-lg transition duration-300">
           Learn More
-        </button>
+        </a>
       </div>
     </section>
 

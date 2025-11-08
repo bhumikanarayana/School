@@ -6,7 +6,7 @@ def get_announcement_details(name=None):
         frappe.throw("No announcement name provided")
 
     try:
-        announcement = frappe.get_doc("Annoucements", name)
+        announcement = frappe.get_doc("Announcements", name)
     except frappe.DoesNotExistError:
         frappe.throw(f"Announcement '{name}' not found")
     except Exception as e:

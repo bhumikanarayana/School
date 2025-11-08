@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full p-6 pt-16 space-y-6">
+  <div class="w-full p-10 pt-20 space-y-6">
     <!-- Full-width Cards -->
     <div
       v-for="(announcement, index) in announcements"
       :key="index"
-      class="bg-white shadow-md rounded-xl p-6 w-full"
+      class="px-14 bg-white shadow-md border border-gray-400 rounded-xl p-6 w-full"
     >
       <!-- Heading -->
       <h2 class="text-xl font-bold mb-4">{{ announcement.title }}</h2>

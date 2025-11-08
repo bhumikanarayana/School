@@ -4,19 +4,19 @@
         v-if="gallery?.main_image"
         :src="gallery.main_image"
         :alt="gallery.title"
-        class="w-full h-auto  object-cover"
+        class="px-14 w-full h-auto max-h-[400px] object-fill pt-14 mb-6 rounded-2xl"
       />
       <section class="max-w-6xl mx-auto">
     <div v-if="loading" class="text-center">Loading...</div>
 
     <div v-else-if="gallery">
 
-      <div class="flex gap-2 text-orange-600 text-3xl">
+      <div class="flex gap-2 text-orange-600 text-3xl md:px-0 px-14">
         <h2><strong>{{ gallery?.category }}</strong></h2>
         <h2><strong>{{ gallery?.year }}</strong></h2>
       </div>
 
-      <div class="mt-4 ql-editor read-mode" v-html="gallery?.description"></div>
+      <div class="mt-4 px-14 md:px-0 ql-editor read-mode" v-html="gallery?.description"></div>
 
       <hr class="my-6" />
 

@@ -34,11 +34,11 @@
               <img :src="aboutImg" alt="Hero Image" class="w-full max-w-sm md:max-w-md h-auto object-cover rounded-lg" />
             </div>     
             <!-- Left Content -->
-            <div class="w-full md:w-7/12 md:text-left md:px-6 ">
+            <div class="w-full md:w-7/12 md:text-left md:px-6 px-6 ">
                 <h1 class="text-[1rem] md:text-[1.5rem] font-bold text-orange-500">
                   Management
                 </h1>
-                <p class="text-black font-light">
+                <p class="text-black font-light mt-2 text-sm md:text-xl">
                   Sri chaitanya Junior College was founded in the year 1991. has since grown across geographies and is now present not only in Telangana, but also in Andhrapradesh & Karnataka. 
                 provide quality education right from playgroup and kindergarten.</p>
                 <p class="text-black font-light mt-2 text-sm md:text-xl">Bhashyam has designed
@@ -60,7 +60,7 @@
       <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
       <!-- Content on top of image -->
-      <div class="z-10 text-white px-6  text-left">
+      <div class="z-10 text-white md:px-20 p-6 text-left">
         <h2 class="text-2xl md:text-4xl font-bold mb-4">Our Vision & Mission</h2>
         <p class="text-sm md:text-lg  max-w-2xl mx-auto mb-6">
           Discipline is the cornerstone of our school’s philosophy. We believe that true learning flourishes in an environment of order, respect, and responsibility. Every student is 
@@ -69,7 +69,7 @@
         </p>
 
         <!-- Button -->
-        <a href="/login" class="bg-orange-500 hover:bg-black text-white text-sm font-semibold px-6 py-2 rounded-lg transition duration-300">
+        <a href="/schoollife" class="bg-orange-500 hover:bg-black text-white text-sm font-semibold px-6 py-2 rounded-lg transition duration-300">
           Learn More
         </a>
       </div>
@@ -78,7 +78,7 @@
     <section class="bg-gray-100">
       <div class="max-w-7xl mx-auto px-6 sm:px-6 md:px-10 lg:px-20 py-5 flex flex-col md:flex-row items-center md:justify-between gap-8">        
         <!-- Left Content -->
-        <div class="w-full md:w-7/12 md:text-left md:px-8">
+        <div class="w-full md:w-7/12 md:text-left md:px-0">
             <h1 class="text-[1rem] md:text-[1.5rem] font-bold text-orange-500 ">
               Who We Are
             </h1>

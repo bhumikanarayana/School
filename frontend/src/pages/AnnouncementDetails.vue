@@ -16,7 +16,7 @@
       <!-- Show more content if show_know_more is checked -->
      <div v-if="announcement.show_know_more && announcement.more_content">
     <h2 class="text-lg font-semibold mb-2">More Details:</h2>
-    <p>{{ announcement.more_content }}</p>
+    <div v-html="announcement.more_content"></div>
     </div>
 
 
@@ -36,27 +36,40 @@ export default {
       loading: true,
     };
   },
-  async created() {
-    // The 'name' param comes from the route
-    const name = this.$route.params.name;
+ async created() {
+  // The 'name' param comes from the route
+  const name = this.$route.params.name;
 
-    if (!name) {
-      console.error("No announcement name provided in route!");
-      this.loading = false;
-      return;
-    }
+  if (!name) {
+    console.error("No announcement name provided in route!");
+    this.loading = false;
+    return;
+  }
 
-    try {
-      const res = await axios.get(
-        "/api/method/school.api.announcementdetails.get_announcement_details",
-        { params: { name } }
-      );
-      this.announcement = res.data.message;
-    } catch (err) {
-      console.error("Failed to load announcement details:", err);
-    } finally {
-      this.loading = false;
+  try {
+    const res = await axios.get(
+      "/api/method/school.api.announcementsdetails.get_announcement_details",
+      { params: { name } }
+    );
+
+    console.log("API response:", res.data.message);
+    this.announcement = res.data.message;
+
+  } catch (err) {
+    // 👇 Replace your old catch block with this
+    console.error("Failed to load announcement details:", err);
+    if (err.response) {
+      console.error("Error Response:", err.response.data);
+    } else if (err.request) {
+      console.error("No response received:", err.request);
+    } else {
+      console.error("Error setting up request:", err.message);
     }
-  },
+  } finally {
+    this.loading = false;
+  }
+}
+
+
 };
 </script>

@@ -6,7 +6,7 @@
     class="w-full h-auto  object-cover"
   />
 </section>
-<section class="w-full p-4">
+<section class="w-full p-4 px-10 md:px-24">
   <!-- Filter Section -->
   <div
     class="flex flex-wrap sm:flex-nowrap items-center justify-center gap-2 sm:gap-3 mb-3 px-2 py-2 sm:py-0 bg-white sm:bg-transparent rounded-lg shadow-sm sm:shadow-none"
@@ -94,13 +94,13 @@
   </p>
 </section> 
 <section class="bg-gray-100">
-      <div class="max-w-7xl mx-auto p-8 sm:px-10 lg:px-10 py-5 flex flex-col md:flex-row items-center md:justify-center gap-2">
+      <div class="max-w-7xl mx-auto p-8 sm:px-10 lg:px-10 py-5 flex flex-col md:flex-row items-center md:justify-center gap-4">
         <!-- Right Image -->
-        <div class="w-full md:w-5/12 flex justify-end md:pl-8">
+        <div class="w-full md:w-1/2 flex justify-center md:pr-0">
           <img src="@/assets/students.png" alt="Hero Image" class="w-full max-w-sm md:max-w-md h-auto object-cover rounded-lg" />
         </div>
         <!-- Left Content -->
-        <div class="w-full md:w-7/12 md:px-8">
+        <div class="w-full md:w-1/2 md:pr-20 px-4">
             <h1 class="text-[1rem] md:text-[1.5rem] font-semibold text-orange-400 mb-2">
               Innovating New Ways to Train Students
             </h1>
@@ -114,52 +114,11 @@
             </p>
         </div>
       </div>
-</section>
- <section class="bg-gray-100 py-6">
-    <div class="max-w-7xl mx-auto px-4 sm:px-8 md:px-6 flex flex-col items-center justify-center gap-10">
-      <h1 class="text-3xl md:text-4xl font-bold text-orange-400 text-center">
-        Our Educational Philosophy
-      </h1>
 
-      <!-- Cards Container -->
-      <div class="flex flex-col md:flex-row items-center justify-center gap-10">
-        <!-- Card 1 -->
-        <div
-          class="bg-white shadow-lg rounded-2xl p-8 w-80 md:w-80 text-center"
-        >
-          <h2 class="text-xl font-semibold text-black mb-4">Our Mission</h2>
-          <p class="text-gray-700 leading-relaxed text-base">
-            To inspire and educate students by creating an environment where curiosity is encouraged, excellence is rewarded, and learning is a joyful experience.
-          </p>
-        </div>
-
-        <!-- Card 2 -->
-        <div
-          class="bg-white shadow-lg rounded-2xl p-8 w-80 md:w-80 text-center"
-        >
-          <h2 class="text-xl font-semibold text-black mb-4">Our Vision</h2>
-          <p class="text-gray-700 leading-relaxed text-base">
-            To nurture young minds into confident, responsible individuals who can contribute positively to society and embrace lifelong learning.
-          </p>
-        </div>
-
-        <!-- Card 3 -->
-        <div
-          class="bg-white shadow-lg rounded-2xl p-8 w-80 md:w-80 text-center"
-        >
-          <h2 class="text-xl font-semibold text-black mb-4">Why Choose Us</h2>
-          <p class="text-gray-700 leading-relaxed text-base">
-            Our dedicated teachers, modern facilities, and holistic approach to education ensure every child receives the best academic and personal growth opportunities.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<section class="bg-gray-100">
+ <section class="bg-gray-100">
       <div class="max-w-7xl mx-auto px-6 sm:px-6 md:px-10 lg:px-20 py-5 flex flex-col md:flex-row items-center md:justify-between gap-8">        
         <!-- Left Content -->
-        <div class="w-full md:w-7/12 md:text-left md:px-8">
+        <div class="w-full md:w-1/2 md:text-left md:px-6 px-4">
             <h1 class="text-[1rem] md:text-[1.5rem] font-bold text-orange-400 ">
               Educational Approach
             </h1>
@@ -174,10 +133,11 @@
                after completing their project.
             </p>
         </div>
-        <div class="w-full md:w-5/12 flex justify-center md:justify-end">
+        <div class="w-full md:w-1/2 flex justify-center md:justify-center">
           <img src="@/assets/seminar-designers.jpg" alt="Hero Image" class="w-full max-w-sm md:max-w-md h-auto object-cover rounded-lg" />
         </div>
       </div>
+</section>
 </section>
 
 </template>

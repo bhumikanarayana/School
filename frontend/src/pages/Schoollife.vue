@@ -9,13 +9,13 @@
       />
     </div>
 <section class="bg-gray-100 ">
-  <div class="max-w-7xl mx-auto px-6 sm:px-6 md:px-10 lg:px-20 pt-10 flex flex-col md:flex-row items-center md:justify-between gap-8">
+  <div class="max-w-7xl mx-auto px-6 sm:px-6 md:px-10 lg:px-20 pt-10 flex flex-col md:flex-row items-center md:justify-between gap-2">
     <!-- Right Image -->
-    <div class="w-full md:w-5/12 flex justify-center md:justify-end">
+    <div class="w-full md:w-1/2 flex justify-center md:justify-end md:pl-10">
       <img src="@/assets/gallery7.jpg" alt="Hero Image" class="w-full mx-auto max-w-sm md:max-w-md h-64 object-cover rounded-lg" />
     </div>
      <!-- Left Content -->
-    <div class="w-full md:w-7/12 text-left mb-4 md:mb-0 md:pl-2">
+    <div class="w-full md:w-1/2 text-left mb-4 md:mb-0 md:pl-2 md:px-16 px-6">
       <h1 class="font-semibold mb-2 text-orange-500 text-3xl">Personality Development</h1>
       <p class= "text-black font-light mt-2 text-sm md:text-xl">
         A well-rounded personality is built on the back of all-round grooming. Being the
@@ -31,9 +31,9 @@
   </div>
 </section>
 <section class="bg-gray-100">
-  <div class="max-w-7xl mx-auto px-6 sm:px-6 md:px-10 lg:px-20 py-5 flex flex-col md:flex-row items-center md:justify-between gap-8">  
+  <div class="max-w-7xl mx-auto px-6 sm:px-6 md:px-10 lg:px-20 py-10 flex flex-col md:flex-row items-center md:justify-between gap-8">  
      <!-- Left Content -->
-    <div class="w-full md:w-7/12 text-left mb-4 md:mb-0 md:pl-2">
+    <div class="w-full md:w-1/2 text-left mb-4 md:mb-0 md:pl-16 md:px-18 px-6">
       <h1 class="font-semibold mb-2 text-orange-500 text-3xl">Study Programme</h1>
       <p class="text-black font-light mt-2 text-sm md:text-xl">
         At Sri Chaitanya, we believe in a stress-free learning environment. To that end,
@@ -45,20 +45,20 @@
       </p>
     </div>
      <!-- Right Image -->
-    <div class="w-full md:w-5/12 flex justify-center md:justify-end">
+    <div class="w-full md:w-1/2 flex justify-center md:pr-24">
       <img src="@/assets/gallery8.jpg" alt="Hero Image" class="w-full max-w-sm md:max-w-md h-64 mx-auto object-cover rounded-lg" />
     </div>
 
   </div>
 </section>
 <section class="bg-gray-100">
-  <div class="max-w-7xl mx-auto px-6 sm:px-6 md:px-10 pb-10 lg:px-20 py-5 flex flex-col md:flex-row items-center md:justify-between gap-8">
+  <div class="max-w-7xl mx-auto px-6 sm:px-6 md:px-10 pb-10 lg:px-20 py-4 flex flex-col md:flex-row items-center md:justify-between gap-2">
     <!-- Right Image -->
-    <div class="w-full md:w-5/12 flex justify-center md:justify-end">
+    <div class="w-full md:w-1/2 flex justify-center md:pl-8 md:justify-end">
       <img src="@/assets/gallery9.jpg" alt="Hero Image" class="w-full mx-auto max-w-sm md:max-w-md h-64 object-cover rounded-lg" />
     </div>
      <!-- Left Content -->
-    <div class="w-full md:w-7/12 text-left mb-4 md:mb-0 md:pl-2">
+    <div class="w-full md:w-1/2 text-left mb-4 md:mb-0 md:pr-28 md:px-2 px-6" >
       <h1 class="font-semibold mb-2 text-orange-500 text-3xl">Digital Learning</h1>
       <p class="text-black font-light mt-2 text-sm md:text-xl">
         To usher in a new era of world-class education, Sri Chaitanya has adopted a

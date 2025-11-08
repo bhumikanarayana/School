@@ -3,7 +3,7 @@
     <!-- Full-width Photo -->
     <div class="w-full">
       <img 
-        src="@/assets/co.jpg" 
+        src="@/assets/contact.jpg" 
         alt="Contact Us Banner" 
         class="w-full h-auto sm:h-80 md:h-[500px] object-contain md:object-cover"
       />
